@@ -1,0 +1,65 @@
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background: url("../images/jaguar.jpg") no-repeat center top;
+	background-size: 100%;
+	
+}
+
+
+
+.container	{
+	
+	position: relative;
+	background-color: #575454;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+	color: white;
+	width: 600px;
+	margin-left: 50px;
+	margin-top: 50px;
+	padding: 15px;
+	border-radius: 10px;
+
+	
+
+
+
+}
+.container button {
+
+	background-color: #DB3030;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+
+
+}
+@media (max-width: 768px ){
+	
+	.container{
+	position: relative;
+	background-color: #575454;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+	color: white;
+	width: 70%;
+	margin-left: 50px;
+	margin-top: 50px;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+
+}
+
+@media (min-width: 768px){
+	body{
+	background-size: 100%;
+	
+}
+}
+
+	
